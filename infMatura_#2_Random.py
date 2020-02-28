@@ -18,3 +18,18 @@ for i in range(3):
 print("\n")
 for i in range(3):
     print(random.uniform(3, 7))
+# BELL CURVE NUMBER GENERATION
+print("\n")
+for i in range(3):
+    print(random.normalvariate(5, 0.2))
+
+# RANDINT
+print("\n")
+for i in range(3):
+    print(random.randint(1,6))
+
+# RANDOM ELEMENT FROM A LIST
+print("\n")
+outcomes = ['rock', 'paper', 'scissors']
+for i in range (3):
+    print(random.choice(outcomes))
