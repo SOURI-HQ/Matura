@@ -1,5 +1,5 @@
-print("Bubble Sort")
 # BUBBLE SORT
+print("Bubble Sort")
 tab = [10, 2, 7, 6, 8, 4, -2, 3]
 def bubble_sort(data):
     for i in range(len(tab)):
@@ -9,8 +9,10 @@ def bubble_sort(data):
                 print(tab)
 bubble_sort(tab)
 
-print("\n", "Merge Sort")
+
 # MERGE SORT
+print("\n", "Merge Sort")
+
 tab2 = [10, 2, 7, 6, 8, 4, 2, 3]
 
 def sort_merge(data):
@@ -37,8 +39,8 @@ def merge(left, right):
 
 print(sort_merge(tab2))
 
-print("\n", "Bucket Sort 1")
 # BUCKET SORT
+print("\n", "Bucket Sort 1")
 tab2= [1, -2, 3]
 def bucket_sort(data):
     maxvalue = 0
@@ -67,8 +69,8 @@ def bucket_sort(data):
     return results
 
 print(bucket_sort(tab2))
-print("\n", "Bucket Sort 2")
 # BUCKET SORT 2
+print("\n", "Bucket Sort 2")
 # https://www.programiz.com/dsa/bucket-sort
 
 def bucketSort(array):
@@ -112,9 +114,10 @@ def insertionSort(arr):
 arr = [12, 11, 14, -1]
 
 print(insertionSort(arr))
-print("\n", "Selection Sort")
+
 
 # SELECTION SORT
+print("\n", "Selection Sort")
 
 def selectionSort(arr):
     for i in range(len(arr)):
@@ -128,5 +131,27 @@ def selectionSort(arr):
 arr2 = [5, -5, 9, -2, 6]
 print(selectionSort(arr2))
 
+
+# QUICK SORT
+print("\n", "Quick Sort")
+def division(arr, left, right):
+    pivot = arr[right]
+    index = left - 1
+    for j in range(left, right):
+        if pivot >= arr[j]:
+            index += 1
+            arr[j], arr[index] = arr[index], arr[j]
+    arr[index+1], arr[right] = arr[right], arr[index+1]
+    return index + 1
+
+def quickSort(arr, left, right):
+    if left < right:
+        pivot = division(arr, left, right)
+        quickSort(arr, left, pivot-1)
+        quickSort(arr, pivot+1, right)
+
+tab3 = [2,1,3,4,-8,6,7,5]
+quickSort(tab3, 0, len(tab3)-1)
+print(tab3)
 
 
