@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0304eac-186d-4e3a-8689-abc54a0130ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infMatura_#4_Sorting_Algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/infMatura_#4_Sorting_Algorithms.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.infMatura_#4_Sorting_Algorithms">
+  <component name="RunManager" selected="Python.infMatura_#5_Numeral_Systems_Conversions">
     <configuration name="Matura_2016" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MATURA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +54,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="infMatura#2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="infMatura_#2_Random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MATURA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,28 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\DELL\PycharmProjects\MATURA\infMatura_#2_Random.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="infMatura_#1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MATURA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\DELL\PycharmProjects\MATURA\infMatura_#1_Fibonacci" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/infMatura_#2_Random.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,13 +117,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="infMatura_#5_Numeral_Systems_Conversions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MATURA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/infMatura_#5_Numeral_Systems_Conversions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.infMatura_#5_Numeral_Systems_Conversions" />
+        <item itemvalue="Python.infMatura_#2_Random" />
         <item itemvalue="Python.infMatura_#4_Sorting_Algorithms" />
         <item itemvalue="Python.Matura_2016" />
         <item itemvalue="Python.infMatura_#3_CSV_Files" />
-        <item itemvalue="Python.infMatura#2" />
-        <item itemvalue="Python.infMatura_#1" />
       </list>
     </recent_temporary>
   </component>
